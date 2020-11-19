@@ -1,0 +1,390 @@
+#aboutme{
+    margin: 0;
+    
+}
+
+
+.div-header {
+            background-image: url(https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+            width: 100%;  
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;           
+            margin: 0; }
+
+            .div-header .header h1{
+                                    font-size: 55px;
+                                    color: black;
+                                    text-align: center;
+                                    transform: translateY(250px) }
+
+
+.navigasi{
+         background-color: black;
+         position: -webkit-sticky;
+         position: sticky;      
+         margin: 0;
+         width: 100%;
+         top: 0px;}
+
+        .navigasi ul{
+                    text-align: right;
+                    margin-top: 0px;
+                    margin-right: 20px;
+                
+                    margin-bottom: 0px; }
+
+        .navigasi li {
+                    display: inline-block;
+                    padding: 20px 35px ;
+                    font-size: 25px;
+                    color: white;}
+
+        .navigasi a{
+                  
+                    text-decoration: none;
+                    color: white;
+                }
+       
+
+        .navigasi li:hover{
+                    background-color:#87cefa;
+                    color: black;}
+
+        .navigasi .dekstop{
+                    float: left;
+                    margin-left: 20px;
+                    width: 45px;
+                    height: 45px;
+                    transform: translate(18px,10px);}
+
+
+        
+
+
+   .konten1 .perkenalan{
+                        text-align: center;
+                        display: block;   
+                        font-size: 25px;} 
+                            
+                        .konten1 .perkenalan .imgperkenalan{
+                                                            width: 270px;
+                                                            margin-left: 0px;
+                                                            margin-top: 45px; }                              
+
+
+    .konten2 .pendidikan{
+                        display: inline-block;
+                        text-align: left;
+                        font-size: 25px;
+                        margin-left: 70px;} 
+
+                        .konten2 .pendidikan .imgpendidikan{
+                                                            width: 270px;
+                                                            margin-left: 95px;} 
+                                 
+        
+    .konten2 .kemampuan{
+                        float: right;
+                        text-align: left;
+                        font-size: 25px;
+                        display: inline-block;
+                        margin-right: 70px;} 
+ 
+                        .konten2 .kemampuan .imgkemampuan{
+                                                        width: 270px;
+                                                        margin-left: 95px; } 
+
+
+
+.my-portofolio h1{
+                   margin-top: 150px;
+                   text-align: center;
+                   font-size: 55px;}
+
+                        .my-portofolio img{
+                                           background-color: violet;
+                                           width: 300px;
+                                           margin-left: 25px;}
+        
+                        .my-portofolio hr{
+                                          margin-top: 30px;
+                                          width: 50%;
+                                          text-align: center;}
+
+   
+.contact h1{   
+            margin-top: 150px;
+            text-align: center;
+            font-size: 55px;}
+
+                    .inputform{
+                                display: inline-block;
+                                float: left; }
+
+                            .contact .inputform{
+                                                font-size: 25px;
+                                                margin-left: 25px;}
+                                            
+                                        .contact .inputan{
+                                                        width: 50px;
+                                                        padding: 10px; }
+
+                                        .contact .inputan input{
+                                                            width: 550px;
+                                                            height: 20px;}
+
+                                        .contact .inputan .inputpesan{
+                                                                    width: 550px;
+                                                                    height: 120px;}
+
+                    .contact .button-kirim{
+                                           width: 550px;
+                                           height: 30px;
+                                           margin-left: 10px;
+                                           background-color: #00ced1;
+                                           color: white; }
+                     .contact .button-kirim:hover{
+                                            font-size: 25px;
+                                            color: red; }
+
+                    .imgkontak-mobile{
+                        display: none;
+                    }
+ 
+
+                    .imgkontak{
+                                float: left;
+                                display: inline-block;}
+                        
+                       
+                                .imgkontak .imgtelepon{
+                                                        margin-top: 20px;
+                                                        width: 50px;
+                                                        height: 50px;
+                                                        margin-left: 260px;}
+                        
+                                .imgkontak .imgemail{
+                                                    margin-top: 70px;
+                                                    width: 50px;
+                                                    height: 50px;
+                                                    margin-left: 200px; }
+                                .imgkontak .imglinkedin{
+                                                     margin-top: 70px;
+                                                     width: 50px;
+                                                     height: 50px;
+                                                     margin-left: 260px;  }
+
+
+                   .infokontak{
+                                float: left ;
+                                display: inline-block;
+                                margin-left: 30px;
+                                text-align: center;
+                            text-decoration: none; }
+
+                            .infokontak .infotelepon{
+                                                     font-size: 22px;
+                                                     margin-top: 30px;  }
+                        
+                            .infokontak .infoemail{
+                                                    font-size: 22px;
+                                                    margin-top: 100px;
+                                                    margin-left: -50px;  }
+
+                            .infokontak .infolinkedin{
+                                                    font-size: 22px;
+                                                    margin-top: 100px; 
+                                                    text-decoration: none;}  
+                            .infokontak .infolinkedin a{
+                                                    color: black;
+                                                    text-decoration: none;}  
+
+                            .infokontak .infolinkedin a:hover{
+                                                        color: red;
+                                                        font-size: 25px;
+                                                        text-decoration: none;} 
+
+
+
+footer{
+    margin-top: 30px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: inline-block;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+                    .div-header {
+                                background-image: url(https://images.unsplash.com/photo-1473181488821-2d23949a045a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+                                width: 100%;  
+                                height: 200px;
+                                background-size: cover;
+                                background-position: center;
+                                background-attachment: fixed;           
+                                margin: 0; }
+ 
+                                .div-header .header h1{
+                                                        
+                                                        font-size: 16px;
+                                                        text-align: center;
+                                                        background-color: turquoise;
+                                                        
+
+                                                        transform: translate(0px,100px);}
+        
+                    .navigasi ul{
+                                text-align: center;
+                                margin-top: 0px;
+                                margin-bottom: 0px; }
+
+                    .navigasi li{
+                                display: inline-block;
+                                padding: 5px 5px ;
+                                font-size: 15px;
+                                color: white;}
+                    .navigasi li:hover{
+                                background-color:#87cefa;
+                                color: black;}
+                
+                    
+                    .navigasi .dekstop{
+                                display: none;
+                            text-align: left;}
+
+                               
+                            .konten1 .perkenalan{
+                                text-align: center;
+                                display: block;
+                                
+                                font-size: 16px;} 
+                                
+    
+             .konten1 .perkenalan .imgperkenalan{
+                                width: 150px;
+                                margin-left: 0px;
+                                margin-top: 45px; }
+    
+    
+    
+    .konten2 .pendidikan{                                  
+                          display: block;
+                          text-align: center;
+                          margin-left: 0px;                           
+                          font-size: 16px;} 
+       
+                                    .konten2 .pendidikan .imgpendidikan{
+                                                                    width: 150px;
+                                                                    margin-left: 0px;
+                                                                    margin-top: 45px; }
+                                          
+    .konten2 .kemampuan{
+                         text-align: center;                           
+                         font-size: 16px; 
+                         margin-right: 0px;
+                         float: none;
+                         display: block;}
+                                   
+    
+                        .konten2 .kemampuan .imgkemampuan{
+                                                        width: 250px;
+                                                        margin-left: 0px;
+                                                        margin-top: 45px; }
+         
+ 
+ 
+ .my-portofolio h1{
+                    margin-top: 80px;
+                    text-align: center;
+                    font-size: 25px; }
+
+                                    .my-portofolio img{
+                                       
+                                        width: 300px;
+                                        margin-left: 7px;
+                                     }
+
+                                     .contact h1{
+           
+                                        margin-top: 80px;
+                                        text-align: center;
+                                       
+                                        font-size: 25px;}
+
+
+    
+                     .inputform{
+                                display: inline-block;
+                                float: none;
+                                text-align: center;}
+                    
+                                     .contact .inputform{
+                                                         font-size: 20px;
+                                                         margin-left: 0px;}
+                                                              
+                                     .contact .inputan{
+                                                       width: 20px;
+                                                       padding: 5px; }
+                    
+                                     .contact .inputan input{
+                                                            width: 280px;
+                                                            height: 20px;}
+                    
+                                     .contact .inputan .inputpesan{
+                                                            width: 280px;
+                                                            height: 100px;}
+                    
+                                     .contact .button-kirim{
+                                                            width: 290px;
+                                                            height: 30px;
+                                                            margin-left: 0px;
+                                                            background-color: #00ced1;
+                                                            margin-left: 5px;
+                                                            color: white; }
+    
+                                
+                                    .contact .button-kirim:hover{
+                                                                font-size: 22px;
+                                                                color: red; 
+                                                            ;}
+                     
+
+                                                                
+                                                                                                                             
+                                                         
+                        .imgkontak-mobile{
+                                          display: inline-block;}
+                                                                .imgkontak-mobile  img{
+                                                                                                width: 50px;
+                                                                                                margin-top: 20px;
+                                                                                                padding: 15px;
+                                                                                                height: 50px;
+                                                                                                margin-left: 10px;}
+                                                                .imgkontak-mobile  .imglinkedin:hover{
+                                                                                            background-color: skyblue;}
+
+ .imgkontak{
+            display: none;}
+ .infokontak{
+            display: none;}
+                                                                    
+                                                                   
+                                footer{
+                                        font-size: 15px;                                      
+                                    }
+                                    
+
+
+
+} 
